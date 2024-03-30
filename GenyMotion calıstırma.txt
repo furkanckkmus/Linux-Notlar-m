@@ -1,1 +1,2 @@
 LC_ALL=C ./genymotion
+bunu linux komut satırına yapıştır yükledikten sonra
