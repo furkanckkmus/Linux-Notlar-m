@@ -1,0 +1,21 @@
+Tazeleme yapıp tekrar deneyebilirsiniz :
+
+sudo pacman -Syy
+
+Bağlantıda /etc/pacman.conf’u açıp
+
+SigLevel = Required DatabaseOptional
+
+olan kısmı
+
+SigLevel = Required DatabaseNever
+
+olarak değiştirin diyor.
+
+sudo rm -f /var/lib/pacman/sync/*
+
+komutu ile bu dizindeki dosyaları silin.
+
+sudo pacman-mirrors --continent
+
+ile yansı değiştirin yazıyor.
